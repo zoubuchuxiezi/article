@@ -5,6 +5,9 @@ import com.hankcs.hanlp.HanLP;
 import com.hankcs.hanlp.corpus.dependency.CoNll.CoNLLSentence;
 import com.hankcs.hanlp.corpus.dependency.CoNll.CoNLLWord;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class NlpdemoApplication {
 
 	static Map<String,String> rule_map = new HashMap<String,String>();
